@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="h-20 flex flex-row justify-between mt-3">
+      <div class="flex flex-row ml-5 h-fit">
+        <p class="font-bold underline">Coming Soon</p>
+        <p class="ml-5"></p>
+      </div>
+      <div class="flex">
+        <img
+          src="mevrik-logo-default.svg"
+          height=""
+          width="150px"
+          class="h-fit"
+        />
+        <p class="ml-1 bg-black text-white rounded-md h-fit flex mt-1.5">
+          URL Shortener
+        </p>
+      </div>
+
+      <div class="flex flex-row">
+        <p class="mr-1 px-5 py-2.5">Sign In</p>
+        <button
+          type="button"
+          class="h-fit text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div class="flex justify-center">
+      <img src="dcx_li_banner.webp" />
+    </div>
+
+    <div class="text-center flex justify-center flex-col items-center">
+      <h1 class="mt-5 text-3xl sm:text-5xl font-bold">
+        Create short links that
+      </h1>
+      <p
+        class="text-3xl sm:text-5xl font-bold border w-fit p-2 rounded-tl-[50px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[40px] bg-[#efef8d]"
+      >
+        Alert you when link buzz & more
+      </p>
+      <p class="mt-5 text-2xl max-w-5xl text-[#9FA6B2]">
+        Short, track & customize your links and receive alert messages or emails
+        when they start buzzing or when they are not responding
+      </p>
+      <div>
+        <p
+          class="flex flex-row rounded-2xl bg-[#E6E6E6] mt-5 font-semibold text-xl sm:text-3xl px-28 py-1"
+        >
+          Shorten your link here <img class="ml-4 mt-1" src="arrow-down.svg" />
+        </p>
+      </div>
+    </div>
+    <div class="mt-5 flex items-center justify-center">
+      <form class="relative">
+        <input
+          type="text"
+          readonly="true"
+          placeholder="https://"
+          id="large-input"
+          class="block p-4 w-96 sm:w-[530px] text-gray-900 border-2 border-[#5504B4] rounded-lg sm:text-md focus:ring-[#5504B4] focus:border-[#5504B4]"
+        />
+        <span class="bg-[#E6E6E6] text-black px-2 py-1 rounded-full text-xs absolute top-0  transform translate-x-1/2 -translate-y-1/2">Coming Soon</span>
+        <button
+          type="submit"
+          class="absolute inset-y-0 right-3 bg-[#E6E6E6] text-[#B4B4B4] px-4 h-10 mt-2.5 py-2 rounded-md"
+        >Create Link</button>
+      </form>
+    </div>
+  </body>
+</html>
